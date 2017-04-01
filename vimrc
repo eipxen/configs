@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'altercation/vim-colors-solarized'
 Plug 'rakr/vim-two-firewatch'
 Plug 'rakr/vim-one'
+Plug 'colepeters/spacemacs-theme.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -135,8 +136,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 
 " Fonts and colors
-set background=light
-colorscheme solarized
+"set background=light
+"colorscheme solarized
+colorscheme space-vim-dark
 
 " end edits from brianrc
 syntax on
