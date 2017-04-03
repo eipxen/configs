@@ -25,7 +25,9 @@ Plug 'uarun/vim-protobuf'
 " Color the gutter with changed lines info
 Plug 'mhinz/vim-signify'
 
-"Plug 'majutsushi/tagbar'
+" Tag management and usage
+Plug 'majutsushi/tagbar'
+
 " AutoCompletion via YouCompleteMe
 Plug 'valloric/youcompleteme'
 
@@ -118,7 +120,6 @@ let g:syntastic_check_on_wq = 1
 "let g:syntastic_error_symbol = "<U+1F4A9>"
 
 " === Extra commands ===
-command Jade !/google/data/ro/teams/jade/jade %
 
 " g4 fix when you save
 function MyFormatChangedLines()
